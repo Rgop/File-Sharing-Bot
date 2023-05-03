@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>RG</a>\n○ ⚜ Anime in Hindi: <a href='https://t.me/Dub_Anime_in_Hindi'>Join</a>\n○ ⚜ Anime Series: <a href='https://t.me/Anime_Series_in_Hindi_Dubbed'>Join</a>\n○ ⚜ Anime Movies: <a href='https://t.me/Dub_Anime_Movies_in_Hindi'>Join</a>\n○ ⚜ Hindi Official: <a href='https://t.me/Crunchyroll_Anime_Hindi_Official'>Join</a>\n○ '>Join</a>\n○ Any Problem: @RG_Anime_Group</b>",
+            text = f"<b>○ 👑 Creator : <a href='tg://user?id={OWNER_ID}'>RG</a>\n○ ⚜ Anime in Hindi: <a href='https://t.me/Dub_Anime_in_Hindi'>Join</a>\n○ ⚜ Anime Series: <a href='https://t.me/Anime_Series_in_Hindi_Dubbed'>Join</a>\n○ ⚜ Anime Movies: <a href='https://t.me/Dub_Anime_Movies_in_Hindi'>Join</a>\n○ ⚜ Hindi Official: <a href='https://t.me/Crunchyroll_Anime_Hindi_Official'>Join</a>\n○ ⚜ Any Problem: @RG_Anime_Group</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
